@@ -7,7 +7,9 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "BQCeXRecHQQx4nzsWr469w-QplWKJ6h04irW96BFGJ1PMv0J9ALEGTxBqzexpzcWVmxRo6p77zeNiEu40EZ62XervXeu8OAGEnBgcAMZhZZ99TtCQ_tPwZoJNdH59OfCHaGGjBYSluEgNzoh6-bpIuiT_oS6rukkX2V1ztVmdY-0lt854Qng6IjuDseazglXrG_sRmlcjXCKBsh_9yZg3rDkqyKjoyvGjnY2hpybC0HWLz0aJBtuv1u-zsodM0ADVoIVViPWD2vmVzznnycjbzd8ee13Dy7UkhX7GwDBwim4OeJ64Fx6tTe41RWalXeOHK5k4D2Ya7ZqaH9q3vUlSPt9aHYM-AA")
+SESSION_NAME = getenv("BQCeXRecHQQx4nzsWr469w-QplWKJ6h04irW96BFGJ1PMv0J9ALEGTxBqzexpzcWVmxRo6p77zeNiEu40EZ62XervXeu8OAGEnBgcAMZhZZ99TtCQ_tPwZoJNdH59OfCHaGGjBYSluEgNzoh6-bpIuiT_oS6rukkX2V1ztVmdY-0lt854Qng6IjuDseazglXrG_sRmlcjXCKBsh_9yZg3rDkqyKjoyvGjnY2hpybC0HWLz0aJBtuv1u-zsodM0ADVoIVViPWD2vmVzznnycjbzd8ee13Dy7UkhX7GwDBwim4OeJ64Fx6tTe41RWalXeOHK5k4D2Ya7ZqaH9q3vUlSPt9aHYM-AA")
+
+", "")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "tgbotproject")
